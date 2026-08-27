@@ -84,8 +84,6 @@ I am **Shlok Shukla**, a Computer Science student at VIT Bhopal (9.01 CGPA) with
    npm run dev
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
 ### Build for Production
 
 ```bash
@@ -99,7 +97,6 @@ npm run start
 
 - **Live Website:** [https://shlokshukla2814.vercel.app/](https://shlokshukla2814.vercel.app/)
 - **GitHub Profile:** [@Shlok2814](https://github.com/Shlok2814)
-- **Repository:** [Shlok2814/Portfolio_Website](https://github.com/Shlok2814/Portfolio_Website)
 
 ---
 
