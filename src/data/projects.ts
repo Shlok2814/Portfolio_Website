@@ -195,8 +195,9 @@ export const projectsData: Project[] = [
       "/projects/game-ui/hitwicket-matchup-vs.png",
       "/projects/game-ui/hitwicket-game-ui-main.jpg",
       "/projects/game-ui/hitwicket-scorecard.jpg",
-      "/projects/game-ui/hitwicket-gameplay-hud.jpg",
-      "/projects/game-ui/hitwicket-tactical-buffs.jpg",
+      "/projects/game-ui/hitwicket-shot-power.jpg",
+      "/projects/game-ui/hitwicket-batting-grid.jpg",
+      "/projects/game-ui/hitwicket-tactical-chains.jpg",
     ],
     frames: [
       {
@@ -219,14 +220,20 @@ export const projectsData: Project[] = [
       },
       {
         frameNumber: 4,
-        title: "Frame 4: In-Game Batting Control Wheel & Field Controls",
-        image: "/projects/game-ui/hitwicket-gameplay-hud.jpg",
-        description: "Tactile shot selection wheel (Hook, Smash, Pull, Nudge, Special Ability) with scoring buttons, fast mode toggle, and real-time shot power meters.",
+        title: "Frame 4: In-Game Batting Wheel & -5% Shot Power Feedback",
+        image: "/projects/game-ui/hitwicket-shot-power.jpg",
+        description: "Real-time shot selection wheel (Hook, Smash, Pull, Nudge, Special Ability) with active delivery alert (Bouncer) and dynamic live feedback ('-5% SHOT POWER').",
       },
       {
         frameNumber: 5,
-        title: "Frame 5: Tactical Constraints & Dynamic Chained Shot Locks",
-        image: "/projects/game-ui/hitwicket-tactical-buffs.jpg",
+        title: "Frame 5: Dynamic Batting Scoring Grid & Delivery Alerts",
+        image: "/projects/game-ui/hitwicket-batting-grid.jpg",
+        description: "Tactile bottom batting scoring matrix (0, 1, 2, 4, 6) with success probability percentages, active batsmen status panels, and match chase indicators.",
+      },
+      {
+        frameNumber: 6,
+        title: "Frame 6: Tactical Constraints & Dynamic Chained Shot Locks",
+        image: "/projects/game-ui/hitwicket-tactical-chains.jpg",
         description: "In-game tactical state visualization showing chained & locked shot triggers (Block, Nudge, Push), active delivery classification (Half-Volley), dynamic run-rate HUD, and real-time match challenge goals.",
       },
     ],
@@ -234,9 +241,9 @@ export const projectsData: Project[] = [
     details: [
       "Designed a high-stakes PvP team matchup & face-off screen with dynamic player rating comparisons (Platinum vs Gold), team run/wicket counters, and full 11-man squad lineup cards.",
       "Designed an engaging PvP match preview interface ('OPENERS') highlighting head-to-head career stats, run tallies, strike rates, and custom equipment loadouts (Bats, Pads, Gloves, Helmets).",
-      "Architected the in-game batting control wheel HUD (Hook, Smash, Pull, Nudge, Special Ability) with tactile run score triggers, live shot power meters (-5% power adjustments), and bowling variations.",
+      "Architected the in-game batting control wheel HUD with tactile run score triggers, dynamic real-time feedback meters ('-5% SHOT POWER'), and bowling variation alerts (Bouncer, Half-Volley).",
       "Crafted an immersive target-chase scoreboard modal ('You need 67 RUNS To Win') displaying detailed team batting/bowling statistics, current run rates, and season challenge progression meters.",
-      "Engineered visual status feedback systems including chained tactical shot locks, bouncer/half-volley alerts, and dynamic team buff indicators to enrich real-time strategic gameplay.",
+      "Engineered visual status feedback systems including chained tactical shot locks, dynamic ability buff indicators, and success probability scoring grids to enrich real-time strategic gameplay.",
     ],
   },
 ];
