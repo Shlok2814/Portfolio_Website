@@ -269,7 +269,7 @@ export function Certifications({ mode = "code" }: CertificationsProps) {
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
               transition={{ duration: 0.25, ease: "easeOut" }}
-              className="relative w-full max-w-3xl rounded-3xl bg-[#111113] border border-white/15 p-6 sm:p-8 md:p-10 shadow-[0_30px_90px_rgba(0,0,0,0.9)] z-10 overflow-hidden max-h-[90vh] overflow-y-auto"
+              className="relative w-full max-w-3xl rounded-3xl bg-[#111113] border border-white/15 p-6 sm:p-8 md:p-10 shadow-[0_30px_90px_rgba(0,0,0,0.9)] z-10 max-h-[90vh] overflow-y-auto custom-scrollbar"
             >
               {/* Close Button */}
               <button
