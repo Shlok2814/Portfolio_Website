@@ -225,9 +225,9 @@ export const projectsData: Project[] = [
       },
       {
         frameNumber: 5,
-        title: "Frame 5: Tactical Constraints & Dynamic Ability Buffs",
+        title: "Frame 5: Tactical Constraints & Dynamic Chained Shot Locks",
         image: "/projects/game-ui/hitwicket-tactical-buffs.jpg",
-        description: "Dynamic gameplay states displaying chained shot locks, delivery alerts (Half-Volley, Bouncer), and active player buff multipliers.",
+        description: "In-game tactical state visualization showing chained & locked shot triggers (Block, Nudge, Push), active delivery classification (Half-Volley), dynamic run-rate HUD, and real-time match challenge goals.",
       },
     ],
     featured: true,
