@@ -1,4 +1,4 @@
-# 🚀 Shlok Shukla — Developer & Designer Portfolio
+# Shlok Shukla — Developer & Designer Portfolio
 
 > A modern, interactive dual-persona portfolio showcasing Software Engineering, Machine Learning, and Product Design.
 
