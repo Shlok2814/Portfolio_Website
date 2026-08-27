@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { codeSkillsData, designSkillsData } from "@/data/skills";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { CheckCircle2, Award, GraduationCap, Layers, Code2 } from "lucide-react";
+import { CheckCircle2, Award, GraduationCap, Layers, Code2, ExternalLink } from "lucide-react";
 import { Mode } from "./Hero";
 
 interface AboutProps {
@@ -125,6 +125,19 @@ export function About({ mode = "code" }: AboutProps) {
                   </p>
                 </>
               )}
+
+              <div className="pt-2 flex items-center gap-3">
+                <a
+                  href="https://shlokshukla2814.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-mono font-semibold transition-all duration-200 border border-white/10 hover:border-white/25 bg-white/5 hover:bg-white/10 text-neutral-200 hover:text-white group"
+                >
+                  <span className="w-2 h-2 rounded-full" style={{ backgroundColor: accentColor }} />
+                  <span>shlokshukla2814.vercel.app</span>
+                  <ExternalLink className="w-3.5 h-3.5 opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
+                </a>
+              </div>
             </div>
 
             {/* Feature Cards with Hover Lifts */}

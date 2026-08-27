@@ -27,6 +27,16 @@
 
 ---
 
+## 👨‍💻 About
+
+I am **Shlok Shukla**, a Computer Science student at VIT Bhopal (9.01 CGPA) with expertise across Software Engineering, Machine Learning, Full-Stack Development, and Product Design. 
+
+- 🌐 **Live Portfolio:** [https://shlokshukla2814.vercel.app/](https://shlokshukla2814.vercel.app/)
+- 💻 **Core Skills:** Python, Java, SQL, React, Next.js, Three.js, AWS, Tailwind CSS
+- 🎨 **Design Craft:** Figma, UI/UX Design, Human-Centered Interfaces, Micro-Interactions
+
+---
+
 ## ✨ Features
 
 - 🎭 **Dual-Persona Split Hero**: Interactive dual-mode landing page toggling seamlessly between **Code (Software Engineering)** and **Craft (Product Design)**.
