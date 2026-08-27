@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { codeSkillsData, designSkillsData } from "@/data/skills";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { CheckCircle2, Award, Briefcase, GraduationCap, Sparkles, Layers, Code2 } from "lucide-react";
+import { CheckCircle2, Award, GraduationCap, Layers, Code2 } from "lucide-react";
 import { Mode } from "./Hero";
 
 interface AboutProps {

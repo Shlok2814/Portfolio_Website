@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  Briefcase,
   Calendar,
   MapPin,
   ExternalLink,
@@ -11,8 +10,6 @@ import {
   ChevronRight,
   ShieldCheck,
   CheckCircle2,
-  TrendingUp,
-  Cpu,
   FileCheck,
 } from "lucide-react";
 import { Mode } from "./Hero";

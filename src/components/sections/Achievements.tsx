@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Award, Users, Trophy, Sparkles, TrendingUp } from "lucide-react";
+import { Users, Trophy } from "lucide-react";
 import { Mode } from "./Hero";
 
 interface AchievementsProps {

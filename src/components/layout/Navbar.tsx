@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Bookmark, ArrowUpRight } from "lucide-react";
+import { Menu, X, Bookmark } from "lucide-react";
 import { Mode } from "@/components/sections/Hero";
 
 interface NavbarProps {
